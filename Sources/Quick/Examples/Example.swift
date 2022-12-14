@@ -51,7 +51,7 @@ public class Example: _ExampleBase {
     */
     public var name: String {
         guard let groupName = group?.name else { return description }
-        return "\(groupName), \(description)"
+        return "\(groupName); \(description)"
     }
 
     public func run() async {

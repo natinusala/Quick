@@ -48,7 +48,7 @@ final public class ExampleGroup: NSObject {
         }
 
         guard let name = parent.name else { return description }
-        return "\(name), \(description)"
+        return "\(name); \(description)"
     }
 
     internal var filterFlags: FilterFlags {
